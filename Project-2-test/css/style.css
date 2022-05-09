@@ -126,6 +126,10 @@ h5 {
 }
 
 .contacts__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  white-space: nowrap;
   border: 1px solid;
   font-weight: 500;
   padding: 1rem;
@@ -346,6 +350,13 @@ h5 {
   }
 }
 
+@media (max-width: 500px) {
+  .home__textcontainer h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+}
+
 .home__photo {
   padding: 0px;
 }
@@ -370,7 +381,7 @@ h5 {
 }
 
 .boxes__small {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   border-bottom: 0.15rem solid rgba(255, 255, 255, 0.187);
   padding: 5rem 3rem;
 }

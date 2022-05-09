@@ -6,8 +6,7 @@
   color: white;
 
   &__small {
-    
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     border-bottom: 0.15rem solid rgba(255, 255, 255, 0.187);
     padding: 5rem 3rem;
     .concept {
@@ -16,7 +15,6 @@
     .management {
       margin-left: -0.25rem;
     }
-   
   }
 
   &__container {
@@ -28,7 +26,7 @@
 
   &__all {
     .boxes__small:hover {
-      box-shadow: 0.5em 0.5em 2em 0.5em rgba(0, 0, 0, 0.300);
+      box-shadow: 0.5em 0.5em 2em 0.5em rgba(0, 0, 0, 0.3);
       border-bottom: 0.15rem solid white;
     }
   }

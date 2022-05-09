@@ -1,6 +1,6 @@
 .home {
   background: $color-secondary;
- 
+
   &__text {
     display: flex;
     align-items: center;
@@ -11,6 +11,13 @@
     margin: 0 auto;
     @media screen and (min-width: 1400px) {
       width: 80%;
+    }
+
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+      }
     }
   }
 
