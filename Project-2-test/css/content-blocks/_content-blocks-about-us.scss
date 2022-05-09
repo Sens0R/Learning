@@ -1,8 +1,6 @@
 .about-us {
   background: $color-secondary;
-  &__container {
-  }
-
+ 
   &__text {
     display: flex;
     align-items: center;
@@ -15,43 +13,9 @@
       width: 80%;
     }
 
-    h5 {
-      text-transform: uppercase;
-      font-size: 0.875rem;
-      font-weight: bold;
-      padding-bottom: 1rem;
-    }
-
-    h3 {
-      line-height: 3rem;
-      font-size: 2.25rem;
-      font-weight: bold;
-      margin: 0;
-    }
-
     p {
       max-width: 85%;
-      padding: 2rem 0;
-      font-size: 1.125rem;
-      line-height: 1.4rem;
     }
-
-    a {
-      font-size: .875rem;
-      text-transform: uppercase;
-      padding-top: 1rem;
-      color: $color-primary;
-      font-weight: bold;
-      text-decoration: underline solid 3px;
-      text-underline-offset: 0.35em;
-      
-    }
-    a:hover {
-      color: rgb(134, 4, 255);
-    }
-  }
-
-  &__link {
   }
 
   &__photo {

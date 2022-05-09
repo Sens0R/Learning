@@ -1,8 +1,50 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700");
 
 body {
   font-family: $font-main;
-  
-  
+}
+
+h1 {
+  line-height: 4.75rem;
+  font-size: 5rem;
+  font-weight: bold;
+  margin: 0;
+  padding-bottom: 2rem;
+}
+
+h2 {
+  line-height: 3rem;
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin: 0;
+  padding-bottom: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+  line-height: 2.25rem;
+  margin: 0;
+}
+
+h4 {
+  font-size: 1.125rem;
+  font-weight: bold;
+  padding: 1rem 0;
+  margin: 0;
+}
+
+h5 {
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+  margin: 0;
+}
+
+.p-text-content {
+  padding-bottom: 2rem;
+  font-size: 1.125rem;
+  line-height: 1.6rem;
 }

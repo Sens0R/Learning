@@ -58,16 +58,18 @@
     color: $color-primary;
   }
   &__button:hover {
-    color: #D232DB;
-    border-color: #D232DB;
+    box-shadow: 2px 2px 8px $color-primary;
   }
 }
 
-@media (min-width: 1200px) {
-  .header__logo {
-    padding-right: 7rem;
-  }
-  .menu__list {
-    font-size: 1.125rem;
-  }
+.phone-line {
+  padding: 0 1rem;
 }
+
+.phone-call-icon {
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding-right: 0.5rem;
+}
+
+

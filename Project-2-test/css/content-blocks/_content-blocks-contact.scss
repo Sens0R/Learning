@@ -1,50 +1,18 @@
 .contact {
   background-color: $color-primary;
   color: white;
-  &__container {
-  }
-  
+
   &__text {
     display: flex;
     align-items: center;
     margin: auto;
   }
-  
+
   &__textcontainer {
     margin: auto;
     padding: 7rem 0;
-    h5 {
-      text-transform: uppercase;
-      font-size: 0.875rem;
-      font-weight: bold;
-      margin: 0;
-    }
-    h3 {
-      font-size: 1.5rem;
-      font-weight: bold;
-      padding: 2rem 0;
-      line-height: 2.25rem;
-      margin: 0;
-    }
-
-    a {
-      color: white;
-      font-size: 0.875rem;
-      text-transform: uppercase;
-      font-weight: bold;
-      text-decoration: underline solid 3px;
-      text-underline-offset: 0.35em;
-      text-decoration-thickness: 0.2em;
-    }
-
-    a:hover {
-      color: rgb(254, 165, 12);
-    }
   }
-  
-  &__link {
-  }
-  
+
   &__photo {
     padding: 0px;
 
@@ -54,14 +22,4 @@
       object-fit: contain;
     }
   }
-  }
-  
-  .container-fluid {
-  }
-  .row {
-  }
-  .col-xxl-6 {
-  }
-  .col-6 {
-  }
-  
+}

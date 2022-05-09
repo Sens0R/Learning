@@ -1,0 +1,22 @@
+.underline-link {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    color: $color-primary;
+    font-weight: bold;
+    text-decoration: underline solid 3px;
+    text-underline-offset: 0.35em;
+    text-decoration-thickness: 0.2em;
+}
+
+.underline-link:hover {
+  color: rgb(134, 4, 255);
+}
+
+
+.underline-link—white {
+  color: white;
+}
+
+.underline-link—white:hover {
+  color: rgb(254, 165, 12);
+}

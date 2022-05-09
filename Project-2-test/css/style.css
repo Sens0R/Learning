@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*--------------------------------------------------------------
 # Import
 --------------------------------------------------------------*/
@@ -6,6 +7,76 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700");
 body {
   font-family: "Work Sans", sans-serif;
+}
+
+h1 {
+  line-height: 4.75rem;
+  font-size: 5rem;
+  font-weight: bold;
+  margin: 0;
+  padding-bottom: 2rem;
+}
+
+h2 {
+  line-height: 3rem;
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin: 0;
+  padding-bottom: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+  line-height: 2.25rem;
+  margin: 0;
+}
+
+h4 {
+  font-size: 1.125rem;
+  font-weight: bold;
+  padding: 1rem 0;
+  margin: 0;
+}
+
+h5 {
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+  margin: 0;
+}
+
+.p-text-content {
+  padding-bottom: 2rem;
+  font-size: 1.125rem;
+  line-height: 1.6rem;
+}
+
+/* Links 
+----------------------------------------------*/
+.underline-link {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  color: #384092;
+  font-weight: bold;
+  -webkit-text-decoration: underline solid 3px;
+          text-decoration: underline solid 3px;
+  text-underline-offset: 0.35em;
+  text-decoration-thickness: 0.2em;
+}
+
+.underline-link:hover {
+  color: #8604ff;
+}
+
+.underline-link—white {
+  color: white;
+}
+
+.underline-link—white:hover {
+  color: #fea50c;
 }
 
 .header {
@@ -71,17 +142,18 @@ body {
 }
 
 .contacts__button:hover {
-  color: #D232DB;
-  border-color: #D232DB;
+  -webkit-box-shadow: 2px 2px 8px #384092;
+          box-shadow: 2px 2px 8px #384092;
 }
 
-@media (min-width: 1200px) {
-  .header__logo {
-    padding-right: 7rem;
-  }
-  .menu__list {
-    font-size: 1.125rem;
-  }
+.phone-line {
+  padding: 0 1rem;
+}
+
+.phone-call-icon {
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding-right: 0.5rem;
 }
 
 .footer__container {
@@ -106,9 +178,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
 }
 
 .footer__logo {
@@ -167,9 +236,6 @@ body {
   -webkit-column-gap: 2.875rem;
           column-gap: 2.875rem;
   white-space: nowrap;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
 }
 
 @media (max-width: 640px) {
@@ -288,34 +354,6 @@ body {
   }
 }
 
-.home__textcontainer h1 {
-  line-height: 4.75rem;
-  font-size: 5rem;
-  font-weight: bold;
-  margin: 0;
-}
-
-.home__textcontainer p {
-  padding: 2rem 0;
-  font-size: 1.125rem;
-  line-height: 1.4rem;
-}
-
-.home__textcontainer a {
-  font-size: 0.875rem;
-  text-transform: uppercase;
-  color: #384092;
-  font-weight: bold;
-  -webkit-text-decoration: underline solid 3px;
-          text-decoration: underline solid 3px;
-  text-underline-offset: 0.35em;
-  text-decoration-thickness: 0.2em;
-}
-
-.home__textcontainer a:hover {
-  color: #8604ff;
-}
-
 .home__photo {
   padding: 0px;
 }
@@ -351,13 +389,6 @@ body {
 
 .boxes__small .management {
   margin-left: -0.25rem;
-}
-
-.boxes__small h4 {
-  font-size: 1.125rem;
-  font-weight: bold;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
 }
 
 .boxes__container {
@@ -404,40 +435,8 @@ body {
   }
 }
 
-.about-us__textcontainer h5 {
-  text-transform: uppercase;
-  font-size: 0.875rem;
-  font-weight: bold;
-  padding-bottom: 1rem;
-}
-
-.about-us__textcontainer h3 {
-  line-height: 3rem;
-  font-size: 2.25rem;
-  font-weight: bold;
-  margin: 0;
-}
-
 .about-us__textcontainer p {
   max-width: 85%;
-  padding: 2rem 0;
-  font-size: 1.125rem;
-  line-height: 1.4rem;
-}
-
-.about-us__textcontainer a {
-  font-size: .875rem;
-  text-transform: uppercase;
-  padding-top: 1rem;
-  color: #384092;
-  font-weight: bold;
-  -webkit-text-decoration: underline solid 3px;
-          text-decoration: underline solid 3px;
-  text-underline-offset: 0.35em;
-}
-
-.about-us__textcontainer a:hover {
-  color: #8604ff;
 }
 
 .about-us__photo {
@@ -478,36 +477,6 @@ body {
 .services__textcontainer {
   margin: auto;
   padding: 7rem 0;
-}
-
-.services__textcontainer h5 {
-  text-transform: uppercase;
-  font-size: 0.875rem;
-  font-weight: bold;
-  margin: 0;
-}
-
-.services__textcontainer h4 {
-  font-size: 1.5rem;
-  font-weight: bold;
-  padding: 1.25rem 0 2rem 0;
-  line-height: 2.25rem;
-  margin: 0;
-}
-
-.services__textcontainer a {
-  color: white;
-  font-size: 0.875rem;
-  text-transform: uppercase;
-  font-weight: bold;
-  -webkit-text-decoration: underline solid 3px;
-          text-decoration: underline solid 3px;
-  text-underline-offset: 0.35em;
-  text-decoration-thickness: 0.2em;
-}
-
-.services__textcontainer a:hover {
-  color: #fea50c;
 }
 
 .services__list {
@@ -568,40 +537,12 @@ body {
   }
 }
 
-.experience__textcontainer h5 {
-  text-transform: uppercase;
-  font-size: 0.875rem;
-  font-weight: bold;
-  padding-bottom: 1rem;
-}
-
 .experience__textcontainer h3 {
-  max-width: 60%;
-  line-height: 2rem;
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin: 0;
+  max-width: 80%;
 }
 
 .experience__textcontainer p {
   max-width: 85%;
-  padding: 2rem 0;
-  line-height: 1.4rem;
-}
-
-.experience__textcontainer a {
-  font-size: .875rem;
-  text-transform: uppercase;
-  padding-top: 1rem;
-  color: #384092;
-  font-weight: bold;
-  -webkit-text-decoration: underline solid 3px;
-          text-decoration: underline solid 3px;
-  text-underline-offset: 0.35em;
-}
-
-.experience__textcontainer a:hover {
-  color: #8604ff;
 }
 
 .experience__photo {
@@ -642,36 +583,6 @@ body {
 .contact__textcontainer {
   margin: auto;
   padding: 7rem 0;
-}
-
-.contact__textcontainer h5 {
-  text-transform: uppercase;
-  font-size: 0.875rem;
-  font-weight: bold;
-  margin: 0;
-}
-
-.contact__textcontainer h3 {
-  font-size: 1.5rem;
-  font-weight: bold;
-  padding: 2rem 0;
-  line-height: 2.25rem;
-  margin: 0;
-}
-
-.contact__textcontainer a {
-  color: white;
-  font-size: 0.875rem;
-  text-transform: uppercase;
-  font-weight: bold;
-  -webkit-text-decoration: underline solid 3px;
-          text-decoration: underline solid 3px;
-  text-underline-offset: 0.35em;
-  text-decoration-thickness: 0.2em;
-}
-
-.contact__textcontainer a:hover {
-  color: #fea50c;
 }
 
 .contact__photo {
