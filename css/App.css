@@ -1,0 +1,52 @@
+ul li {
+  list-style-type: georgian;
+}
+
+.app-wrapper {
+  display: -ms-grid;
+  display: grid;
+  width: 1200px;
+  margin: 0 auto;
+  -ms-grid-rows: 60px 1fr;
+      grid-template-rows: 60px 1fr;
+  -ms-grid-columns: 2fr 10fr;
+      grid-template-columns: 2fr 10fr;
+  gap: 10px;
+      grid-template-areas: "h h" "n c";
+}
+
+.app-wrapper .header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: h;
+  background-color: red;
+}
+
+.app-wrapper .header img {
+  height: 100px;
+  width: 100px;
+}
+
+.app-wrapper .nav {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: n;
+  background-color: blue;
+}
+
+.app-wrapper .content {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: c;
+  background-color: green;
+}
+
+.app-wrapper .content img {
+  width: 100%;
+}
+
+.app-wrapper .content .cat {
+  width: 100px;
+}
+/*# sourceMappingURL=App.css.map */

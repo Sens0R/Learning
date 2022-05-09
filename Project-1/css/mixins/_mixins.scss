@@ -1,0 +1,208 @@
+// Center block
+@mixin center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Column width with margin
+@mixin column-width($numberColumns: 3) {
+  width: map-get($columns, $numberColumns) -
+    (($columns__margin * ($numberColumns - 1)) / $numberColumns);
+}
+
+@mixin inputBase {
+  font-size: 0.875em;
+	border: 1px solid $color-border-input;
+	border-radius: $border-radius-small;
+  line-height: 1;
+}
+
+@mixin inputRatio {
+  padding: $input-y-padding $input-x-padding;
+}
+
+@mixin button() {
+  border: 1px solid $color-border-button;
+  background: $color-primary;
+  font-family: $font-secondary;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  color: $color-white;
+  cursor: pointer;
+  justify-content: center;
+  border-radius: $border-radius-small;
+  font-weight: bold;
+  @include uppercase;
+  transition: border-color $transition, color $transition, background-color $transition;
+  @include inputRatio;
+}
+
+@mixin buttonHover() {
+  box-shadow: none;
+  background: $color-primary-dark;
+  border-color: $color-primary-dark;
+  color: $color-white;
+}
+
+@mixin buttonActive() {
+  background: $color-border-button;
+  border-color: $color-border-button;
+  color: $color-white;
+}
+
+@mixin resetList() {
+  list-style: none;
+  padding: 0;
+}
+
+@mixin clear() {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@mixin inputValidateRequired() {
+  padding: 0.75em;
+  border-left: 2px solid;
+  border-radius: $border-radius-small;
+}
+
+@mixin inputValidated() {
+  border-color: $color-success;
+  background: rgba($color-success, 0.1);
+}
+
+@mixin inputInvalid() {
+  border-color: $color-error;
+  background: rgba($color-error, 0.1);
+}
+
+@mixin stretchSection() {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@mixin dropdown($onHover: false) {
+  position: absolute;
+  top: 100%;
+  left: -1.5em;
+  font-size: 1em;
+  border-radius: $border-radius-small;
+  z-index: 10;
+  padding: 0.5em 0;
+  white-space: nowrap;
+  background: #fff;
+  color: $color-text-body;
+  box-shadow: $shadow;
+
+  @if ($onHover) {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: $transition;
+  } @else {
+    display: none;
+  }
+
+  > li {
+    display: block;
+  }
+  > li > a {
+    display: block;
+    padding: 0.4em 1.5em;
+    transition: all 0.3s ease;
+    color: inherit;
+    &:hover {
+      text-decoration: none;
+      background: $color-accent;
+    }
+  }
+}
+
+@mixin materialIcon {
+  font-family: "Material Icons Outlined";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.25em;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  vertical-align: middle;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+}
+
+@mixin dropdownIsVisible() {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@mixin backgroundCover() {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@mixin breakpoint-sm-min {
+  @media (min-width: $sm) {
+    @content;
+  }
+}
+
+@mixin breakpoint-md-min {
+  @media (min-width: $md) {
+    @content;
+  }
+}
+
+@mixin breakpoint-md-max {
+  @media (max-width: #{$md - 1}) {
+    @content;
+  }
+}
+
+@mixin breakpoint-lg-min {
+  @media (min-width: $lg) {
+    @content;
+  }
+}
+
+@mixin breakpoint-lg-max {
+  @media (max-width: #{$lg - 1}) {
+    @content;
+  }
+}
+
+@mixin breakpoint-xl-min {
+  @media (min-width: $xl) {
+    @content;
+  }
+}
+
+@mixin breakpoint-xl-max {
+  @media (max-width: #{$xl - 1}) {
+    @content;
+  }
+}
+
+@mixin breakpoint-xxl-min {
+  @media (min-width: $xxl) {
+    @content;
+  }
+}
+
+@mixin uppercase {
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+}

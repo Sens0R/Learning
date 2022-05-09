@@ -1,0 +1,28 @@
+{
+    "version": 3,
+    "mappings": "AAAA;;gEAEgE;AMFhE;gDACgD;ACEhD,OAAO,CAAC,mEAAI;AAEZ,AAAA,IAAI,CAAC;EACH,WAAW,EJFD,YAAY,EAAE,UAAU;EIGlC,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,QAAQ;CACpB;;ADLD;gDACgD;AILhD,AAAA,EAAE,CAAC;EACF,eAAe,EAAE,IAAI;EACpB,YAAY,EAAE,CAAC;CAChB;;AJQD;gDACgD;AQZhD,AAAA,CAAC,CAAC;EACA,eAAe,EAAE,IAAI;CACtB;;AAED,AAAA,CAAC,AAAA,QAAQ,CAAC;EACR,KAAK,EZEO,OAAO;CYDpB;;ARSD;gDACgD;AYd7C,AAAD,YAAM,CAAC;EACL,UAAU,EhBDE,OAAO;EgBEnB,KAAK,EhBGK,OAAO;CgBFlB;;AAUA,AAAD,sBAAY,CAAC;EACX,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,GAAG,EAAE,OAAO;EACZ,UAAU,EAAE,IAAI;EAChB,MAAM,EAAE,IAAI;EACZ,SAAS,EAAE,MAAM;EACjB,OAAO,EAAE,MAAM;CAChB;;AAEA,AAAD,iBAAO,CAAC;EACN,IAAI,EAAE,QAAQ;EACd,WAAW,EAAE,aAAa;CAC3B;;AAEA,AAAD,iBAAO,CAAC;EACN,OAAO,EAAE,WAAW;EACpB,WAAW,EAAE,MAAM;EACnB,WAAW,EAAE,GAAG;EAChB,WAAW,EAAE,aAAa;CAE3B;;AAEA,AAAD,iBAAO,CAAC;EACN,YAAY,EAAE,OAAO;EACrB,SAAS,EAAE,GAAG;CACf;;AAOA,AAAD,WAAO,CAAC;EACN,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,OAAO;EACnB,OAAO,EAAE,MAAM;EACf,SAAS,EAAE,IAAI;CAChB;;AAKA,AAAD,WAAO,CAAC;EACN,SAAS,EAAE,IAAI;CAEhB;;AAKH,AAAA,UAAU,CAAC;EAET,OAAO,EAAE,IAAI;CACd;;AlB3DD,AAAA,IAAI,CAAC;EACH,MAAM,EAAE,CAAC;EACT,SAAS,EAAE,KAAK;EAChB,WAAW,EAAE,GAAG;CAChB",
+    "sources": [
+        "style.scss",
+        "variables/_variables.scss",
+        "variables/_colors.scss",
+        "variables/_typography.scss",
+        "variables/_structure.scss",
+        "mixins/_mixins.scss",
+        "base/_base.scss",
+        "base/typography/_typography.scss",
+        "base/typography/_headings.scss",
+        "base/typography/_text.scss",
+        "base/elements/_lists.scss",
+        "base/elements/_media.scss",
+        "base/elements/_tables.scss",
+        "base/elements/_spacing.scss",
+        "base/elements/_links.scss",
+        "base/elements/_buttons.scss",
+        "base/elements/_fields.scss",
+        "content-blocks/_content-blocks.scss",
+        "content-blocks/_site-header.scss",
+        "content-blocks/_site-footer.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}

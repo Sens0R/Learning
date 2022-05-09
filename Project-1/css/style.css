@@ -1,0 +1,98 @@
+/*--------------------------------------------------------------
+# Import
+--------------------------------------------------------------*/
+/* Typography
+--------------------------------------------- */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:500,600,700);
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+
+/* Elements
+--------------------------------------------- */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* Links
+--------------------------------------------- */
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ffffff;
+}
+
+/* Forms
+--------------------------------------------- */
+.header__top {
+  background: #141414;
+  color: #ffffff;
+}
+
+.top-header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1.25rem;
+  min-height: 70px;
+  margin: auto;
+  max-width: 1590px;
+  padding: 0 1rem;
+}
+
+.top-header__menu {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  line-height: calc(20 / 16);
+}
+
+.top-header__user {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 600;
+  line-height: calc(22 / 16);
+}
+
+.top-header__icon {
+  margin-right: 0.75rem;
+  font-size: 2em;
+}
+
+.menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 3.75rem;
+          column-gap: 3.75rem;
+  row-gap: .625em;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.menu__link {
+  font-size: 1rem;
+}
+
+.icon-menu {
+  display: none;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  line-height: 1.7;
+}
+/*# sourceMappingURL=style.css.map */

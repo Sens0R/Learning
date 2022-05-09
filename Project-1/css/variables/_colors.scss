@@ -1,0 +1,34 @@
+//Color Variables
+
+$color-primary: #141414;
+$color-secondary: #E8AA31;
+$color-primary-dark: darken($color-primary, 10%);
+$color-primary-light: lighten($color-primary, 10%);
+$color-dark: #272B34;
+$color-white: #ffffff;
+$color-error: #f44336;
+$color-success: #0f834d;
+$color-warning: #fff4dd;
+$color-border: rgba($color-primary-dark, .25);
+$color-accent: lighten($color-primary, 48%);
+
+$color-background-body: $color-white;
+$color-background-screen: $color-white;
+
+$color-text-body: #333;
+$color-text-screen: $color-text-body;
+$color-text-main: $color-text-body;
+
+$color-text-input: $color-text-body;
+$color-text-input-focus: $color-text-body;
+$color-border-input: $color-border;
+
+$color-link: $color-primary;
+$color-link-visited: $color-primary;
+$color-link-hover: $color-primary-dark;
+
+$color-border-button: $color-primary;
+$color-border-button-hover: $color-primary-dark;
+$color-border-button-focus: $color-primary-dark;
+
+$color-border-abbr: $color-text-body;
