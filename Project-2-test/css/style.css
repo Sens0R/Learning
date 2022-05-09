@@ -126,16 +126,9 @@ h5 {
 }
 
 .contacts__button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   border: 1px solid;
-  white-space: nowrap;
   font-weight: 500;
-  padding: 0.9rem;
+  padding: 1rem;
   background-color: #EDEAE3;
   border-color: #384092;
   color: #384092;
@@ -151,9 +144,8 @@ h5 {
 }
 
 .phone-call-icon {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   font-weight: bold;
-  padding-right: 0.5rem;
 }
 
 .footer__container {

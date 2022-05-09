@@ -68,17 +68,11 @@
       text-decoration: underline solid 0.15rem;
     }
   }
-
-  &__link {
-  }
 }
 
 .form {
   @media (min-width: 640px) and (max-width: 1040px) {
     justify-content: left;
-  }
-
-  &__body {
   }
 
   &__label {

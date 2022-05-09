@@ -7,12 +7,6 @@
     align-items: center;
   }
 
-  &__container {
-  }
-
-  &__row {
-  }
-
   &__logo {
     padding-right: 1rem;
     margin-bottom: 0.5em;
@@ -40,19 +34,13 @@
       color: black;
     }
   }
-
-  &__link {
-    
-  }
 }
+
 .contacts {
   &__button {
-    display: flex;
-    align-items: center;
     border: 1px solid;
-    white-space: nowrap;
     font-weight: 500;
-    padding: 0.9rem;
+    padding: 1rem;
     background-color: $color-secondary;
     border-color: $color-primary;
     color: $color-primary;
@@ -67,9 +55,6 @@
 }
 
 .phone-call-icon {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   font-weight: bold;
-  padding-right: 0.5rem;
 }
-
-
