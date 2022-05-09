@@ -47,6 +47,8 @@
 }
 .contacts {
   &__button {
+    display: flex;
+    align-items: center;
     border: 1px solid;
     white-space: nowrap;
     font-weight: 500;
